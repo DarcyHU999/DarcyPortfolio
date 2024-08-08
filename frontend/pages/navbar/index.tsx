@@ -26,7 +26,7 @@ const Navbar = () => {
     <div className="relative">
       {
         <nav
-          className={`flex justify-evenly items-center bg-gradient-to-r from-blue-500 to-blue-700 rounded-l-50 rounded-br-50 rounded-tr-10 text-gray-200 h-10 absolute z-0 ${
+          className={`flex justify-evenly items-center bg-gradient-to-r from-blue-500 to-blue-700 rounded-l-50 rounded-br-50 rounded-tr-10 top-0 right-0 text-gray-200 pr-5 pl-5 h-10 absolute ${
             hasAnimated
               ? isMenuOpen
                 ? "animate-menu-expand"
@@ -41,7 +41,7 @@ const Navbar = () => {
             return (
               <Link
                 key={i.href + "-key"}
-                className={`hover:text-white focus:text-white text-center overflow-hidden ${
+                className={`hover:text-white focus:text-white  overflow-hidden ${
                   hasAnimated
                     ? isMenuOpen
                       ? "animate-text-expand"
@@ -58,7 +58,7 @@ const Navbar = () => {
           })}
         </nav>
       }
-      <div className={"absolute z-10"}>
+      <div className={"absolute top-0 right-0"}>
         <MenuHorizon isMenuOpen={isMenuOpen} toggleExpand={toggleExpand} />
       </div>
     </div>
