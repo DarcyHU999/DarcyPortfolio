@@ -1,3 +1,4 @@
+import { Opacity } from "@mui/icons-material";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -16,6 +17,30 @@ const config: Config = {
       borderRadius: {
         "50": "50px",
         "10": "10px",
+      },
+      keyframes: {
+        menuCollapse: {
+          "0%": { transform: "translateX(0%) scaleX(1)" },
+          "100%": { transform: "translateX(100%) scaleX(0)" },
+        },
+        menuExpand: {
+          "0%": { transform: "translateX(100%) scaleX(0)" },
+          "100%": { transform: "translateX(0%) scaleX(1)" },
+        },
+        textCollapse: {
+          "0%": { opacity: "1", left: "50px" },
+          "100%": { opacity: "0", left: "0px" },
+        },
+        textExpand: {
+          "0%": { opacity: "0", left: "0px" },
+          "100%": { opacity: "1", left: "50px" },
+        },
+      },
+      animation: {
+        "menu-expand": "menuExpand 1s forwards",
+        "menu-collapse": "menuCollapse 1s forwards",
+        "text-expand": "textExpand 0.5s forwards",
+        "text-collapse": "textCollapse 0.5s forwards",
       },
     },
   },
