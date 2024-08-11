@@ -6,7 +6,7 @@ const navItems = [
   { href: "/home", label: "Home" },
   { href: "/projects", label: "Projects" },
   { href: "/skills", label: "Skills" },
-  { href: "/about", label: "About Me" },
+  { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
   { href: "/resume", label: "Resume" },
 ];
@@ -41,7 +41,7 @@ const Navbar = () => {
             return (
               <Link
                 key={i.href + "-key"}
-                className={`hover:text-white focus:text-white  overflow-hidden ${
+                className={`pr-5 pl-5 truncate text-center hover:text-white focus:text-white  overflow-hidden ${
                   hasAnimated
                     ? isMenuOpen
                       ? "animate-text-expand"

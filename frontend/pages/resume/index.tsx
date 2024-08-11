@@ -1,9 +1,11 @@
+import ExpCard from "@/components/expCard"
+import SchoolIcon from '@mui/icons-material/School';
+
 const Resume = () => {
     return (
-        <section>
-            <h1 className="text-left font-bold text-3xl"> RESUME </h1>
-            
-        </section>
+        <>
+            <ExpCard ExpCardIcon={SchoolIcon} title={"Education"}/>
+        </>
     )
 }
 
