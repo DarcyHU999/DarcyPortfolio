@@ -10,7 +10,7 @@ import Layout from "@/components/layout";
 
 const Home = () => (
   <>
-    <Layout />
+    <Layout title={"RESUME"} component={undefined} />
   </>
 );
 
