@@ -42,6 +42,9 @@ const config: Config = {
         "text-expand": "textExpand 0.5s ease-out forwards",
         "text-collapse": "textCollapse 0.5s ease-out forwards",
       },
+      textColor: {
+        DEFAULT: "text-gray-700", // 这里可以设置为你希望的默认字体颜色
+      },
     },
   },
   plugins: [],
