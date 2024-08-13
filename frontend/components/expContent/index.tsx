@@ -1,4 +1,4 @@
-interface ExpContentProps {
+export interface ExpContentProps {
   duration: string;
   position: string;
   institution: string;
