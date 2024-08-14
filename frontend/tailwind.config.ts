@@ -43,7 +43,10 @@ const config: Config = {
         "text-collapse": "textCollapse 0.5s ease-out forwards",
       },
       textColor: {
-        DEFAULT: "text-gray-700", // 这里可以设置为你希望的默认字体颜色
+        DEFAULT: "text-gray-700",
+      },
+      screens: {
+        xl: "1440px",
       },
     },
   },
