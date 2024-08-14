@@ -15,7 +15,7 @@ const ExpContent: React.FC<ExpContentProps> = ({
 }) => {
   return (
     <>
-      <section className="flex flex-col w-1/2 pt-5">
+      <section className="flex flex-col w-full pt-5 pr-10">
         <h1 className="font-bold text-xl">{position}</h1>
         <div className="flex justify-between">
           <h2 className="font-bold italic">{institution}</h2>

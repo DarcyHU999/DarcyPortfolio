@@ -13,7 +13,7 @@ const ExpCard: React.FC<ExpCardProps> = ({
   expContents,
 }) => (
   <>
-    <section className="flex flex-col w-full">
+    <section className="flex flex-col w-full mt-10">
       <div className="flex flex-row">
         <ExpCardIcon className="text-blue-700 w-[40px] h-[40px] mt-1" />
         <h2 className="ml-2 text-[30px] ">{title}</h2>

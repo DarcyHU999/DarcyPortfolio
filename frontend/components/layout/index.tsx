@@ -27,13 +27,11 @@ const BlueLine = () => (
 
 // Layout 组件
 const Layout: React.FC<LayoutProps> = ({ children, title }) => (
-  <div className="bg-[url('/resources/background.webp')] bg-cover bg-center w-screen h-screen overflow-auto">
+  <div className="bg-[url('/resources/background.webp')] bg-cover bg-center w-full h-full overflow-auto">
     <div className="flex justify-center pt-80">
-      <section className="ml-5 pl-10 flex flex-col w-1/2 h-auto bg-white rounded-10">
+      <section className="mx-5 my-5 pl-10 flex flex-col w-full xl:w-2/3 h-auto bg-white rounded-10">
         <TitleBar title={title} />
-        <div className="h-10 pb-5">
-          <BlueLine />
-        </div>
+        <BlueLine />
         {children}
       </section>
     </div>

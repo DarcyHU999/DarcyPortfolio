@@ -6,7 +6,7 @@ import work from "@/public/resources/work_experience.json";
 const Resume = () => {
   return (
     <>
-      <section className="flex flex-row">
+      <section className="flex xl:flex-row flex-col">
         <ExpCard
           ExpCardIcon={SchoolOutlinedIcon}
           title={"Education"}
