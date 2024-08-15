@@ -20,12 +20,12 @@ const config: Config = {
       },
       keyframes: {
         menuCollapse: {
-          "0%": { right: "0px", top: "0px", width: "100%" },
-          "100%": { right: "0px", top: "0px", width: "0" },
+          "0%": { width: "100%" },
+          "100%": { width: "0" },
         },
         menuExpand: {
-          "0%": { right: "0px", top: "0px", width: "0" },
-          "100%": { right: "0px", top: "0px", width: "100%" },
+          "0%": { width: "0" },
+          "100%": { width: "100%" },
         },
         textCollapse: {
           "0%": { opacity: "1", left: "0px" },
