@@ -3,7 +3,7 @@ export interface ExpContentProps {
   position: string;
   institution: string;
   address: string;
-  description: string;
+  description: string[];
 }
 
 const ExpContent: React.FC<ExpContentProps> = ({
@@ -22,7 +22,15 @@ const ExpContent: React.FC<ExpContentProps> = ({
           <h2 className="italic">{address}</h2>
         </div>
         <h3 className="italic text-gray-500 py-2 ">{duration}</h3>
-        <h3>{description}</h3>
+        <div className="list-disc">
+          {description.map((s, i) => {
+            return (
+              <p key={`description-${i}`} className={`mt-2 mb-2`}>
+                {s}
+              </p>
+            );
+          })}
+        </div>
       </section>
     </>
   );

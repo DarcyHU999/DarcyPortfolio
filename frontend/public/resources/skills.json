@@ -1,0 +1,52 @@
+{
+  "skills": {
+    " Frontend": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "ReactJS",
+      "Jest",
+      "npm",
+      "yarn",
+      "rollup.js",
+      "webpack",
+      "gulp.js",
+      "next.js"
+    ],
+    "Backend": [
+      "Java",
+      "Node.js",
+      "Python",
+      "Shell script",
+      "Spring Boot",
+      "Spring Data",
+      "JPA",
+      "Junit",
+      "YAML",
+      "XML"
+    ],
+    "Architectures": ["Microservices", "Event Bus"],
+    "Tools": [
+      "Git",
+      "Jira",
+      "Taiga",
+      "Postman",
+      "Swagger",
+      "GitLab",
+      "CI/CD",
+      "Jenkins",
+      "Docker"
+    ],
+    "Data": ["MySQL", "MongoDB"],
+    "Cloud Services": [
+      "AWS lambda",
+      "AWS",
+      "dynamoDB",
+      "AWS S3",
+      "Amazon",
+      "API Gateway"
+    ],
+    "Methodologies": ["Agile", "Scrum"]
+  }
+}
