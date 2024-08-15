@@ -18,9 +18,9 @@ const ExpCard: React.FC<ExpCardProps> = ({
         <ExpCardIcon className="text-blue-700 w-[40px] h-[40px] mt-1" />
         <h2 className="ml-2 text-[30px] ">{title}</h2>
       </div>
-      <ul className="relative ">
+      <ul className="relative z-5">
         {expContents.map((i, index) => (
-          <li key={`education-${i}`} className={`relative pl-10 mb-0}`}>
+          <li key={`education-${index}`} className={`relative pl-10 mb-0}`}>
             <div
               className={`after:absolute after:left-[15px] after:right-0 after:bottom-0 after:top-0 after:w-[1px] after:bg-gray-300 ${
                 index === expContents.length - 1 ? "after:bottom-[150px]" : ""
