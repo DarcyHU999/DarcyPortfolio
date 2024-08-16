@@ -4,10 +4,12 @@ import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
 import edu from "@/public/resources/education_experience.json";
 import work from "@/public/resources/work_experience.json";
 import Layout from "@/components/layout";
+import skills from "@/public/resources/skills.json"
+import SkillCard from "@/components/skillBoard";
 const Resume = () => {
   return (
     <Layout title={"Resume"}>
-      <section className="flex xl:flex-row flex-col">
+      <section className="flex xl:flex-row flex-col pb-10">
         <ExpCard
           ExpCardIcon={SchoolOutlinedIcon}
           title={"Education"}
@@ -18,6 +20,9 @@ const Resume = () => {
           title={"Experience"}
           expContents={work.exp}
         />
+      </section>
+      <section>
+        <SkillCard skills={skills.skills}/>
       </section>
     </Layout>
   );

@@ -1,26 +1,25 @@
 .about {
-    padding: 2rem 1rem;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .about h2 {
-    margin-bottom: 1.5rem;
-    font-size: 2rem;
-  }
-  
-  .about p {
-    max-width: 600px;
-    margin: 0 auto;
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-  
-  .photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-top: 1.5rem;
-    object-fit: cover;
-  }
-  
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+  object-fit: cover;
+}

@@ -32,8 +32,8 @@ const Navbar = () => {
                 ? "animate-menu-expand"
                 : "animate-menu-collapse"
               : isMenuOpen
-              ? "w-full"
-              : "w-0"
+                ? "w-full"
+                : "w-0"
           }`}
           onAnimationEnd={handleAnimationEnd}
         >
@@ -47,8 +47,8 @@ const Navbar = () => {
                       ? "animate-text-expand"
                       : "animate-text-collapse"
                     : isMenuOpen
-                    ? "w-auto"
-                    : "w-0"
+                      ? "w-auto"
+                      : "w-0"
                 }`}
                 href={i.href}
               >

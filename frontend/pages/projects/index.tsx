@@ -1,5 +1,5 @@
 // frontend/components/Projects.tsx
-import styles from '@/styles/Projects.module.css'
+import styles from "@/styles/Projects.module.css";
 
 const Projects = () => (
   <section id="projects" className={styles.projects}>
@@ -10,7 +10,9 @@ const Projects = () => (
         <h3>Project 1</h3>
         <p>Short description</p>
         <div className={styles.techStack}>
-          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
         </div>
       </div>
       {/* Repeat for other projects */}
