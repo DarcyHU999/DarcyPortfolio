@@ -1,5 +1,3 @@
-import exp from "constants";
-
 interface SkillProps {
   skill: string;
 }

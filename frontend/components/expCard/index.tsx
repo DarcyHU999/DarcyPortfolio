@@ -1,5 +1,4 @@
 import { SvgIconProps } from "@mui/material/SvgIcon";
-import { ReactNode } from "react";
 import ExpContent, { ExpContentProps } from "../expContent";
 
 interface ExpCardProps {
