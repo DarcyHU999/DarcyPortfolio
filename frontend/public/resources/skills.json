@@ -38,7 +38,7 @@
       "Jenkins",
       "Docker"
     ],
-    "Data": ["MySQL", "MongoDB"],
+    "Database": ["MySQL", "MongoDB"],
     "Cloud Services": [
       "AWS lambda",
       "AWS",

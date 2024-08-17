@@ -13,7 +13,7 @@ interface TitleBarProps {
 // TitleBar 组件
 const TitleBar: React.FC<TitleBarProps> = ({ title }) => (
   <div className="flex justify-between">
-    <h1 className="mt-5 w-1/3 h-15 text-[40px]">{title}</h1>
+    <h1 className="mt-5 w-1/3 h-15 text-5xl">{title}</h1>
     <div className="w-full xl:w-2/3">
       <Navbar />
     </div>
@@ -22,7 +22,7 @@ const TitleBar: React.FC<TitleBarProps> = ({ title }) => (
 
 // BlueLine 组件
 const BlueLine = () => (
-  <div className="h-1 w-16 rounded-full bg-blue-700"></div>
+  <div className="h-1 w-16 mt-3 rounded-full bg-blue-700"></div>
 );
 
 // Layout 组件
