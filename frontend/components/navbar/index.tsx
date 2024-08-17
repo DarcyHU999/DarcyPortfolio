@@ -8,7 +8,7 @@ const navItems = [
   { href: "/skills", label: "Skills" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
-  { href: "/resume", label: "Resume" },
+  { href: "/qualifications", label: "Qualifications" },
 ];
 
 const Navbar = () => {

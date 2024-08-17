@@ -2,38 +2,48 @@
   "projects": [
     {
       "imgSrc":"/resources/were_wolf.png",
-      "imgAlt":"string",
-      "description":"string",
-      "youtubeSrc":"string",
-      "note":"string"
+      "imgAlt":"werewolf",
+      "projName":"Werewolf's Hunt",
+      "description":"This application, with hundreds of thousands of users, is available for access in all countries worldwide where online slot games are permitted, with the exception of Australia.",
+      "youtubeSrc":"youtube",
+      "website":"https://www.pgsoft.com/en/games/147/",
+      "note":"Due to project confidentiality, specific code and demos cannot be shared."
     },
     {
       "imgSrc":"/resources/tsar_treasures.png",
-      "imgAlt":"string",
-      "description":"string",
-      "youtubeSrc":"string",
-      "note":"string"
+      "imgAlt":"tsar_treasures",
+      "projName":"Tsar Treasures",
+      "description":"This application, with hundreds of thousands of users, is available for access in all countries worldwide where online slot games are permitted, with the exception of Australia.",
+      "youtubeSrc":"youtube",
+      "website":"https://www.pgsoft.com/en/games/146/",
+      "note":"Due to project confidentiality, specific code and demos cannot be shared."
     },
     {
       "imgSrc":"/resources/futebol_fever.webp",
       "imgAlt":"futebol_fever",
-      "description":"string",
-      "youtubeSrc":"string",
-      "note":"string"
+      "projName":"Futebol Fever",
+      "description":"This application, with hundreds of thousands of users, is available for access in all countries worldwide where online slot games are permitted, with the exception of Australia.",
+      "youtubeSrc":"youtube",
+      "website":"https://www.pgsoft.com/en/games/158/",
+      "note":"Due to project confidentiality, specific code and demos cannot be shared."
     },
     {
       "imgSrc":"/resources/fortune_dragon.png",
       "imgAlt":"fortune_dragon",
-      "description":"string",
-      "youtubeSrc":"string",
-      "note":"string"
+      "projName":"Fortune Dragon",
+      "description":"This application, with hundreds of thousands of users, is available for access in all countries worldwide where online slot games are permitted, with the exception of Australia.",
+      "youtubeSrc":"youtube",
+      "website":"https://www.pgsoft.com/en/games/149/",
+      "note":"Due to project confidentiality, specific code and demos cannot be shared."
     },
     {
       "imgSrc":"/resources/cruise_royale.png",
       "imgAlt":"cruise_royale",
-      "description":"string",
-      "youtubeSrc":"string",
-      "note":"string"
+      "projName":"Cruise Royale",
+      "description":"This application, with hundreds of thousands of users, is available for access in all countries worldwide where online slot games are permitted, with the exception of Australia.",
+      "youtubeSrc":"youtube",
+      "website":"https://www.pgsoft.com/en/games/138/",
+      "note":"Due to project confidentiality, specific code and demos cannot be showcased."
     }
   ]
 }
