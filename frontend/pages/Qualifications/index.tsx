@@ -6,9 +6,9 @@ import work from "@/public/resources/work_experience.json";
 import Layout from "@/components/layout";
 import skills from "@/public/resources/skills.json"
 import SkillCard from "@/components/skillBoard";
-const Resume = () => {
+const Qualifications = () => {
   return (
-    <Layout title={"Resume"}>
+    <Layout title={"Qualifications"}>
       <section className="flex xl:flex-row flex-col pb-10">
         <ExpCard
           ExpCardIcon={SchoolOutlinedIcon}
@@ -28,4 +28,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Qualifications;

@@ -15,20 +15,20 @@ const ExpCard: React.FC<ExpCardProps> = ({
   <>
     <section className="flex flex-col w-full mt-10">
       <div className="flex flex-row">
-        <ExpCardIcon className="text-blue-700 w-[40px] h-[40px] mt-1" />
-        <h2 className="ml-2 text-[30px] ">{title}</h2>
+        <ExpCardIcon className="text-blue-700 w-10 h-10 mt-1" />
+        <h2 className="ml-2 text-3xl ">{title}</h2>
       </div>
       <ul className="relative z-5">
         {expContents.map((i, index) => (
           <li key={`education-${index}`} className={`relative pl-10 mb-0}`}>
             <div
-              className={`after:absolute after:left-[15px] after:right-0 after:bottom-0 after:top-0 after:w-[1px] after:bg-gray-300 ${
-                index === expContents.length - 1 ? "after:bottom-[150px]" : ""
+              className={`absolute left-4 right-0 bottom-0 top-0 w-px h-full bg-gray-300 ${
+                index === expContents.length - 1 ? "h-0" : ""
               }
-                ${index === 0 ? "after:top-[30px]" : ""}`}
+                ${index === 0 ? "top-7" : ""}`}
             ></div>
-            <div className="absolute w-4 h-4 bg-blue-100 rounded-full left-2 top-[26px]"></div>
-            <div className="absolute w-2 h-2 bg-blue-500 rounded-full left-[12px] top-[30px]"></div>
+            <div className="absolute w-4 h-4 bg-blue-100 rounded-full left-2 top-7"></div>
+            <div className="absolute w-2 h-2 bg-blue-500 rounded-full left-3 top-8"></div>
             <ExpContent
               key={`exp-education-${i}`}
               position={i.position}

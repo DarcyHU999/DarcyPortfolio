@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "imgSrc":"/resources/were_wolf.png",
+      "imgAlt":"string",
+      "description":"string",
+      "youtubeSrc":"string",
+      "note":"string"
+    },
+    {
+      "imgSrc":"/resources/tsar_treasures.png",
+      "imgAlt":"string",
+      "description":"string",
+      "youtubeSrc":"string",
+      "note":"string"
+    },
+    {
+      "imgSrc":"/resources/futebol_fever.webp",
+      "imgAlt":"futebol_fever",
+      "description":"string",
+      "youtubeSrc":"string",
+      "note":"string"
+    },
+    {
+      "imgSrc":"/resources/fortune_dragon.png",
+      "imgAlt":"fortune_dragon",
+      "description":"string",
+      "youtubeSrc":"string",
+      "note":"string"
+    },
+    {
+      "imgSrc":"/resources/cruise_royale.png",
+      "imgAlt":"cruise_royale",
+      "description":"string",
+      "youtubeSrc":"string",
+      "note":"string"
+    }
+  ]
+}
