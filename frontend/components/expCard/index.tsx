@@ -21,10 +21,10 @@ const ExpCard: React.FC<ExpCardProps> = ({
         {expContents.map((i, index) => (
           <li key={`education-${index}`} className={`relative pl-10 mb-0}`}>
             <div
-              className={`absolute left-4 right-0 bottom-0 top-0 w-px h-full bg-gray-300 ${
-                index === expContents.length - 1 ? "h-0" : ""
+              className={`absolute left-4 right-0 bottom-0 w-px bg-gray-300 ${
+                index === expContents.length - 1 ? "h-0" : " h-full"
               }
-                ${index === 0 ? "top-7" : ""}`}
+                ${index === 0 ? "top-7" : "top-0"}`}
             ></div>
             <div className="absolute w-4 h-4 bg-blue-100 rounded-full left-2 top-7"></div>
             <div className="absolute w-2 h-2 bg-blue-500 rounded-full left-3 top-8"></div>

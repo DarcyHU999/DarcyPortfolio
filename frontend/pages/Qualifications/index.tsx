@@ -9,21 +9,24 @@ import SkillCard from "@/components/skillBoard";
 const Qualifications = () => {
   return (
     <Layout title={"Qualifications"}>
-      <section className="flex xl:flex-row flex-col pb-10">
-        <ExpCard
-          ExpCardIcon={SchoolOutlinedIcon}
-          title={"Education"}
-          expContents={edu.exp}
-        />
-        <ExpCard
-          ExpCardIcon={WorkOutlineOutlinedIcon}
-          title={"Experience"}
-          expContents={work.exp}
-        />
-      </section>
-      <section>
-        <SkillCard skills={skills.skills}/>
-      </section>
+        <div className="flex flex-col w-full">
+          <div className="mb-10 flex flex-col xl:flex-row">
+            <ExpCard
+              ExpCardIcon={SchoolOutlinedIcon}
+              title={"Education"}
+              expContents={edu.exp}
+            />
+            <ExpCard
+              ExpCardIcon={WorkOutlineOutlinedIcon}
+              title={"Experience"}
+              expContents={work.exp}
+            />
+          </div>
+          <section>
+            <SkillCard skills={skills.skills}/>
+          </section>
+        </div>
+      
     </Layout>
   );
 };
