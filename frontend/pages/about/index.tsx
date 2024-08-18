@@ -48,7 +48,7 @@ const GrayBg:React.FC<GrayBgProps> = ({children})=>{
 
 const AboutCard:React.FC<AboutCard> = ({AboutCardIcon,title,description})=>{
   return (
-    <div className="bg-white rounded-50 w-2/3 flex flex-col mt-5 px-20 py-1">
+    <div className="bg-white rounded-50 w-3/4 flex flex-col mt-5 px-20 py-1">
       <section className="flex flex-row flex-wrap items-center">
         <AboutCardIcon className="text-blue-500 w-20 h-20"/>
         <h2 className="text-3xl ml-2">{title}</h2>
