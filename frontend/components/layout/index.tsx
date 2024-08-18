@@ -1,4 +1,4 @@
-// import FixedCard from "@/pages/fixedCard";
+import FixedCard from "@/components/fixedCard";
 import { ReactNode } from "react";
 import Navbar from "../navbar";
 
@@ -28,7 +28,10 @@ const BlueLine = () => (
 // Layout 组件
 const Layout: React.FC<LayoutProps> = ({ children, title }) => (
   <div className="bg-[url('/resources/background.webp')] bg-cover bg-center w-full h-full min-h-screen min-w-screen overflow-auto">
-    <div className="flex justify-center pt-80">
+    <div className="px-5 flex justify-center">
+      <FixedCard/>
+    </div>
+    <div className="flex justify-end xl:pt-80">
       <section className="mx-5 my-5 pl-10 flex flex-col w-full xl:w-2/3 h-auto bg-white rounded-10">
         <TitleBar title={title} />
         <BlueLine />
