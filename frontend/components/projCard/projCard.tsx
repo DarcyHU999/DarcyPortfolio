@@ -34,7 +34,7 @@ const ProjCard:React.FC<ProjcardProps> = ({projects})=>{
                     <section className="px-5 flex flex-col">
                         <div className="flex flex-row items-center ">
                             <h3 className="font-bold">{item.projName}</h3>
-                            {item.website?(<a href={item.website} target="_blank"><PublicIcon className="text-blue-500 ml-2"/></a>):undefined}
+                            {item.website?(<a href={item.website} rel="noreferrer" target="_blank"><PublicIcon className="text-blue-500 ml-2"/></a>):undefined}
                         </div>
                         {item.note?<p className={`italic text-xs my-3`}><label className="font-bold">Note: </label>{item.note}</p>:undefined}
                         <p>{item.description}</p>
