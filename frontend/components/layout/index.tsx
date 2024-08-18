@@ -1,4 +1,4 @@
-import FixedCard from "@/pages/fixedCard";
+// import FixedCard from "@/pages/fixedCard";
 import { ReactNode } from "react";
 import Navbar from "../navbar";
 
@@ -13,8 +13,8 @@ interface TitleBarProps {
 // TitleBar 组件
 const TitleBar: React.FC<TitleBarProps> = ({ title }) => (
   <div className="flex justify-between">
-    <h1 className="mt-5 w-1/3 h-15 text-5xl">{title}</h1>
-    <div className="w-full xl:w-2/3">
+    <h1 className="mt-5 w-2/3 h-15 text-5xl">{title}</h1>
+    <div className="w-full xl:w-1/3">
       <Navbar />
     </div>
   </div>
@@ -32,7 +32,9 @@ const Layout: React.FC<LayoutProps> = ({ children, title }) => (
       <section className="mx-5 my-5 pl-10 flex flex-col w-full xl:w-2/3 h-auto bg-white rounded-10">
         <TitleBar title={title} />
         <BlueLine />
-        {children}
+        <section className="flex xl:flex-row flex-col pb-10">
+          {children}
+        </section>
       </section>
     </div>
   </div>

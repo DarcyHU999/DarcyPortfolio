@@ -3,12 +3,9 @@ import Link from "next/link";
 import MenuHorizon from "@/components/menuHorizon";
 import { useState } from "react";
 const navItems = [
-  { href: "/home", label: "Home" },
-  { href: "/projects", label: "Projects" },
-  { href: "/skills", label: "Skills" },
   { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
   { href: "/qualifications", label: "Qualifications" },
+  { href: "/projects", label: "Projects" },
 ];
 
 const Navbar = () => {
