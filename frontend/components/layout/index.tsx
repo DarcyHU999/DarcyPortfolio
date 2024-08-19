@@ -27,12 +27,12 @@ const BlueLine = () => (
 
 // Layout 组件
 const Layout: React.FC<LayoutProps> = ({ children, title }) => (
-  <div className="bg-[url('/resources/background.webp')] bg-cover bg-center w-full h-full min-h-screen min-w-screen overflow-auto">
-    <div className="px-5 flex justify-center">
+  <div className="relative bg-[url('/resources/background.webp')] bg-cover bg-center w-full h-full min-h-screen min-w-screen flex flex-col items-center xl:flex-row xl:items-start">
+    <div className="xl:sticky xl:top-0 ml-5 flex justify-center xl:justify-start w-4/10 xl:w-3/10 mt-5">
       <FixedCard/>
     </div>
-    <div className="flex justify-end xl:pt-80">
-      <section className="mx-5 my-5 pl-10 flex flex-col w-full xl:w-2/3 h-auto bg-white rounded-10">
+    <div className="flex justify-start xl:w-2/3">
+      <section className="mx-5 my-5 pl-10 flex flex-col w-full  h-auto bg-white rounded-10">
         <TitleBar title={title} />
         <BlueLine />
         <section className="flex xl:flex-row flex-col pb-10">

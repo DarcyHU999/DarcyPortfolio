@@ -48,6 +48,10 @@ const config: Config = {
       screens: {
         xl: "1440px",
       },
+      width: {
+        "4/10": "40%",
+        "3/10": "30%",
+      },
     },
   },
   plugins: [],
