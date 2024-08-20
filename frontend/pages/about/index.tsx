@@ -49,7 +49,7 @@ const About = () => (
       </div>
       <GrayBg>
         {abilities.map((item, index) => (
-          <AboutCard
+          <AboutCard key={`aboutCard-${index}`}
             AboutCardIcon={item.AboutCardIcon}
             title={item.title}
             description={item.description}
