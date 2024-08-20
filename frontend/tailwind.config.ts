@@ -9,11 +9,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       borderRadius: {
         "50": "50px",
         "10": "10px",
@@ -37,10 +32,10 @@ const config: Config = {
         },
       },
       animation: {
-        "menu-expand": "menuExpand 0.4s forwards",
-        "menu-collapse": "menuCollapse 0.4s forwards",
-        "text-expand": "textExpand 0.2s forwards",
-        "text-collapse": "textCollapse 0.2s forwards",
+        "menu-expand": "menuExpand 1s forwards",
+        "menu-collapse": "menuCollapse 1s forwards",
+        "text-expand": "textExpand 0.4s forwards",
+        "text-collapse": "textCollapse 0.4s forwards",
       },
       textColor: {
         DEFAULT: "text-gray-700",
