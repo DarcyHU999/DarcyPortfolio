@@ -2,17 +2,21 @@
   "exp": [
     {
       "position": "Frontend Software Engineer",
-      "duration": "(Including 3-month internship) Apr 2023 - Present",
+      "duration": "Apr 2023 - Present (Including 3-month internship)",
       "institution": "Growild Technology",
       "address": "Sydney, Australia",
-      "description": ["..."]
+      "description": [
+        "As a Frontend Software Developer at Growild Technology Pty Ltd., I developed dynamic SPA plugins and game logic using modern web technologies like React, TypeScript, and Cocos Creator. I optimized development with Rollup, Gulp, and automated deployment via GitLab CI/CD and Jenkins. Additionally, I ensured code quality through comprehensive Jest testing while collaborating closely with cross-functional teams to develop HTML5 slot games."
+      ]
     },
     {
       "position": "Intern Fullstack Software Engineer",
       "duration": "Sep 2021 - Dec 2021",
       "institution": "Guimu Robot",
       "address": "Chengdu, China",
-      "description": ["..."]
+      "description": [
+        "As an Intern Full Stack Developer at Guimu Robot Co., Ltd., I utilized JPA for database operations with MySQL and employed third-party tools for data visualization. I implemented Spring AOP for efficient logging, deployed utilities on Docker with gRPC for microservices communication, re-engineered 20+ Restful APIs, and developed JUnit tests to ensure service reliability and functionality."
+      ]
     }
   ]
 }

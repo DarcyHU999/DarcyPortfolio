@@ -37,16 +37,17 @@ const config: Config = {
         },
       },
       animation: {
-        "menu-expand": "menuExpand 1s ease-out forwards",
-        "menu-collapse": "menuCollapse 1s ease-out forwards",
-        "text-expand": "textExpand 0.5s ease-out forwards",
-        "text-collapse": "textCollapse 0.5s ease-out forwards",
+        "menu-expand": "menuExpand 0.4s forwards",
+        "menu-collapse": "menuCollapse 0.4s forwards",
+        "text-expand": "textExpand 0.2s forwards",
+        "text-collapse": "textCollapse 0.2s forwards",
       },
       textColor: {
         DEFAULT: "text-gray-700",
       },
       screens: {
         xl: "1440px",
+        xxl: "2300px",
       },
       width: {
         "4/10": "40%",

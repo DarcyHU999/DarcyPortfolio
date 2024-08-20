@@ -12,7 +12,8 @@
       "rollup.js",
       "webpack",
       "gulp.js",
-      "next.js"
+      "next.js",
+      "Tailwind CSS"
     ],
     "Backend": [
       "Java",
@@ -26,6 +27,7 @@
       "YAML",
       "XML"
     ],
+    "Game": ["Cocos Creator"],
     "Architectures": ["Microservices", "Event Bus"],
     "Tools": [
       "Git",

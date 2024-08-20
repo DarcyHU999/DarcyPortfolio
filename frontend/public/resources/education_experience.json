@@ -5,14 +5,18 @@
       "duration": "Jan 2021 - Jan 2023",
       "institution": "University of New South Wales",
       "address": "Sydney, Australia",
-      "description": ["WAM: Distinction"]
+      "description": [
+        "Completed a Master of Information Technology at UNSW, specializing in Data Science, with a Distinction (D) average. The program provided deep insights into advanced software development, artificial intelligence, and data science. It combined rigorous academic theory with extensive hands-on projects, equipping me with practical skills in cutting-edge technologies and preparing me to excel in complex, data-driven environments across various industries."
+      ]
     },
     {
       "position": "Bacholer of Engineer",
       "duration": "Sep 2016 - Jun 2020",
       "institution": "Chongqing University of Technology",
       "address": "Chongqing, China",
-      "description": ["WAM: High Distinction"]
+      "description": [
+        "Completed a Bachelor's degree in Electrical Engineering at Chongqing University of Technology, focusing on IT-related courses like programming, data structures, databases, and networking. Developed a solid foundation in both electrical and computing disciplines. Participated in interdisciplinary projects, honing practical skills. Achieved a High Distinction (HD) average, reflecting excellence in both academic and practical work."
+      ]
     }
   ]
 }
