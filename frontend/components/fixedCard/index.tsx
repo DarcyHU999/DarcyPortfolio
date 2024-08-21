@@ -4,7 +4,7 @@ import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import MailOutlineOutlinedIcon from "@mui/icons-material/MailOutlineOutlined";
 import PhoneIphoneOutlinedIcon from "@mui/icons-material/PhoneIphoneOutlined";
 const information = {
-  photo: "/resources/DarcyPhoto.png",
+  photo: "/resources/DarcyPhoto.jpg",
   firstName: "Darcy",
   lastName: "Hu",
   position: "Full Stack Developer",
