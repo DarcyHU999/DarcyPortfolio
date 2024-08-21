@@ -58,7 +58,7 @@ const FixedCard = () => {
           {information.position}
         </section>
       </div>
-      <div className="relative flex flex-row flex-wrap justify-between mx-5 rounded-10 xl:flex-col xxl:flex-row bg-gray-200  h-auto py-3 px-5 items-start">
+      <div className="relative flex flex-row justify-between mx-5 rounded-10 xl:flex-col xxl:flex-row bg-gray-200  h-auto py-3 px-5 items-start">
         <p className="relative text-xl w-auto mx-5 xl:mx-0">
           <LocationOnOutlinedIcon className="w-6 h-6 my-2 mr-2 text-blue-500" />
           {information.address}
