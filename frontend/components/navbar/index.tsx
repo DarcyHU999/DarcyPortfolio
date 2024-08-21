@@ -23,13 +23,13 @@ const Navbar = () => {
     <div className="xl:relative fixed w-full top-0 right-0 z-10">
       {
         <nav
-          className={`flex flex-col h-full  min-h-screen xl:flex-row justify-center bg-white xl:justify-evenly items-center xl:bg-gradient-to-r xl:from-blue-500 xl:to-blue-700 xl:rounded-l-50 xl:rounded-br-50 xl:rounded-tr-10 text-blue-300 xl:text-gray-200 xl:pr-16 xl:h-16 xl:min-h-10 fixed xl:absolute top-0 right-0 px-0 ${
+          className={`flex flex-col h-full overflow-hidden min-h-screen xl:flex-row justify-center bg-white xl:justify-evenly items-center xl:bg-gradient-to-r xl:from-blue-500 xl:to-blue-700 xl:rounded-l-50 xl:rounded-br-50 xl:rounded-tr-10 text-blue-300 xl:text-gray-200 xl:pr-16 xl:h-16 xl:min-h-10 fixed xl:absolute top-0 right-0 px-0 ${
             hasAnimated
               ? isMenuOpen
                 ? "animate-menu-expand"
                 : "animate-menu-collapse"
               : isMenuOpen
-              ? "w-full px-5"
+              ? "w-full"
               : "w-0"
           }`}
           onAnimationEnd={handleAnimationEnd}
@@ -38,7 +38,8 @@ const Navbar = () => {
             return (
               <Link key={i.href + "-key"} href={i.href} passHref>
                 <button
-                  className={`text-5xl xl:text-lg text-center hover:text-blue-500 xl:hover:text-white overflow-hidden active:scale-95 ${
+                  className={`text-5xl my-5 xl:text-lg text-center hover:text-blue-500 xl:hover:text-white overflow-hidden active:
+                    -95 ${
                     hasAnimated
                       ? isMenuOpen
                         ? "animate-text-expand"
