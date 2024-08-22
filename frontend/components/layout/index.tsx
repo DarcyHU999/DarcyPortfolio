@@ -7,10 +7,9 @@ interface LayoutProps {
   children: ReactNode;
 }
 interface TitleBarProps {
-  title: string; // 定义 title 为字符串类型
+  title: string; 
 }
 
-// TitleBar 组件
 const TitleBar: React.FC<TitleBarProps> = ({ title }) => (
   <div className="flex justify-between">
     <h1 className="mt-5 w-1/2 h-15 text-5xl">{title}</h1>
@@ -20,12 +19,10 @@ const TitleBar: React.FC<TitleBarProps> = ({ title }) => (
   </div>
 );
 
-// BlueLine 组件
 const BlueLine = () => (
   <div className="h-1 w-16 mt-3 rounded-full bg-blue-700"></div>
 );
 
-// Layout 组件
 const Layout: React.FC<LayoutProps> = ({ children, title }) => (
   <div className="relative bg-[url('/resources/background.webp')] bg-cover bg-center w-full h-full min-h-screen min-w-screen flex flex-col items-center xl:flex-row xl:items-start">
     <div className="xl:sticky xl:top-0 ml-5 flex justify-center xl:justify-start w-2/3 xl:w-3/10 mt-5">
